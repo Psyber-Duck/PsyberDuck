@@ -24,6 +24,14 @@
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/package.css">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
     <style>
         .lists{
             display: inline;margin-right: 15px;margin-left: 10px;
@@ -51,6 +59,16 @@
       .card shadow{
             padding-bottom: 40px; 
         }
+
+
+#accordion .card-header:after {
+    font-family: 'FontAwesome';  
+    content: "\f068";
+    float: right; 
+}
+#accordion .card-header.collapsed:after {
+    content: "\f067"; 
+}
     </style>
 </head>
 <body>
@@ -86,7 +104,7 @@
                             </div>
                             <!-- left Btn -->
                             <div class="header-right-btn f-right d-none d-lg-block  ml-30">
-                                <a href="#" class="header-btn">Conmtact Us</a>
+                                <a href="#" class="header-btn">Contact Us</a>
                             </div>
                         </div>
                     </div>             
@@ -423,16 +441,11 @@
                     <div class="office-pera">
                         <div class="section-tittle">
                             <h2 class="mb-30">About Us</h2>
-                            <p>The automated process starts as soon as 
-                                your clothes go into the machine. Duis cursus, mi quis 
-                                viverra ornare, eros dolor interdum nulla, ut commodo 
-                                diam libero vitae erat. Aenean faucibus nibh et justo 
-                                cursus id rutrum lorem imperdiet. Nunc ut sem vitae 
-                            risus tristique posuere.</p>
+                            <p>Keeping the plight of pandemic in our minds and understanding the grave need of digitalisation, we present to you Psyberduck! We at Psyberduck acknowledge the new normal and understand the utter importance of not only expanding your business but also making your presence on the web stand out.</p>
 
-                            <p>Interdum nulla, ut commodo diam libero vitae erat. 
-                                Aenean faucibus nibh et justo cursus id rutrum lorem 
-                            imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                            <p>Psyberduck is an initiative by the students of B.I.T Mesra, primarily focused on offering a one stop solution to all the web development grievances, queries and problems, in addition to catering to SEO, digital marketing and graphic designing needs. 
+                                Get your websites built by a set of ardent web developers who excel in making what others just imagine! 
+                                </p>
                         </div>
                     </div>
                 </div>
@@ -622,6 +635,48 @@
         </div>
     </section>
     <!-- Want To work End -->
+    <!-- FAQs -->
+    <section id="frequentlyaskedquestions">
+        <div class="container mb-5">
+            <h2 class="mb-5" style="font-size: 32px;">Frequently Asked Questions</h2>   
+            <div id="accordion" class="accordion">
+                <div class="card mb-0">
+                    <div class="card-header collapsed" data-toggle="collapse" href="#collapseOne">
+                        <a class="card-title"> What do we exactly do? </a>
+                    </div>
+                    <div id="collapseOne" class="card-body collapse" data-parent="#accordion">
+                        <p>We create your business website or personal portfolio website, plus manage it all in one spot!</p>
+                    </div>
+                    <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                        <a class="card-title"> For how long will I get the domain and hosting for? </a>
+                    </div>
+                    <div id="collapseTwo" class="card-body collapse" data-parent="#accordion">
+                        <p>For a period of 2 years.</p>
+                    </div>
+                    <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                        <a class="card-title"> What is our goal? </a>
+                    </div>
+                    <div id="collapseThree" class="card-body collapse" data-parent="#accordion">
+                        <p>To make business’ and people’s presence on the web.</p>
+                    </div>
+                    <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                        <a class="card-title">How to reach us? </a>
+                    </div>
+                        <div id="collapseFour" class="card-body collapse" data-parent="#accordion">
+                            <p>Drop in your requirements in the form below and we shall reach out to you very soon!</p>
+                        </div>
+                    </div>
+                    <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                        <a class="card-title"> Will my website be updated as per my needs? </a>
+                    </div>
+                    <div id="collapseFive" class="card-body collapse" data-parent="#accordion">
+                        <p>The maintenance and updation of the website shall last for a month only.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- !FAQs -->
 </main>
 <footer>
     <div class="footer-wrapper section-bg2 pl-100"  data-background="assets/img/gallery/footer_bg.jpg">
