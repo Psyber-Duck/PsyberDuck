@@ -157,4 +157,32 @@ tml {
 		 transform: translate3d(0, 0, 0);
 	}
 }
+.lists{
+            display: inline;margin-right: 15px;margin-left: 10px;
+        }
+        h3{
+            margin-top: 20px;
+        }
+
+       .container{
+             margin-top: 8%;
+        }
+ 
+      .inner{
+             overflow: hidden;
+        }
+ 
+      .inner img{
+            transition: all 1.5s ease;
+       }
+ 
+      .inner:hover img{
+            transform: scale(1.5);
+      }
+    
+      .card shadow{
+            padding-bottom: 40px; 
+        }
+
+
  
